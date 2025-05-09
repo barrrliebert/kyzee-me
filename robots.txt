@@ -18,4 +18,7 @@ Allow: /*.gif
 Allow: /*.svg
 Allow: /static/
 Allow: /images/
-Allow: /assets/ 
+Allow: /assets/
+Allow: /draco/
+Allow: /models/
+Allow: /resume/
