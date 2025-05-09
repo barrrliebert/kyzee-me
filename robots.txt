@@ -1,3 +1,21 @@
+# Allow all crawlers
 User-agent: *
 Allow: /
-Sitemap: https://kyzee.me/sitemap.xml 
+
+# Sitemap location
+Sitemap: https://www.kyzee.me/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Additional rules
+Allow: /*.html
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.svg
+Allow: /static/
+Allow: /images/
+Allow: /assets/ 
